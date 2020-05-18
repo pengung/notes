@@ -1,0 +1,8 @@
+预处理:使用－E生成.i文件：
+gcc -E a.c -o a.i
+汇编:使用－S生成.s文件：
+gcc -S a.i -o a.s
+编译:使用－c生成.o文件：
+gcc -c a.s -o a.o
+连接:使用－o生成可执行文件：
+gcc a.o -o a
