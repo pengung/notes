@@ -1,0 +1,7 @@
+1、创建新仓库：新建仓库名然后执行git init命令
+2、克隆已有仓库：git clong ***
+3、git工作流：工作目录+缓存区（Index）+本地仓库（HEAD）
+4、添加文件到缓存区：git add <文件名>
+5、添加文件到本地仓库：git commit -m “代码提交信息”
+6、推送到远程仓库：git push origin master
+7、更新本地仓库：git pull
